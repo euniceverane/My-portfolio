@@ -1,0 +1,224 @@
+<?php require 'connect.php' ?>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <title>Netflix Cameroon - Watch TV Shows Online, Watch Movies Online</title>
+    <script src="fontawesome-free-6.7.2-web/js/all.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="assets/images/logo.png" class="logo" />
+        <a href="html/sign-in.php"> Sign In </a>
+      </nav>
+      <div class="header-content">
+        <h1>Unlimited Movies, TV Shows, and More</h1>
+        <h3>Starts at US$2.99. Cancel anytime.</h3>
+        <p>
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <form class="header-form">
+          <input type="email" placeholder="Email address" />
+          <button type="submit">Get Started</button>
+        </form>
+      </div>
+    </header>
+
+    <main class="">
+      <div class="trending">
+        <h1>Trending Now</h1>
+        <div class="carousel">
+          <div class="icon left ">
+            <i class="fa-solid fa-angle-left "></i>
+          </div>
+          <div class="carousel-items">
+            <div class="carousel-item">
+              <img src="assets/images/trending-01.jpg" />
+              <h1>1</h1>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/trending-02.jpg" />
+              <h1>2</h1>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/trending-03.jpg" />
+              <h1>3</h1>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/trending-04.jpg" />
+              <h1>4</h1>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/trending-05.jpg" />
+              <h1>5</h1>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/trending-06.jpg" />
+              <h1>6</h1>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/trending-07.jpg" />
+              <h1>7</h1>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/trending-08.jpg" />
+              <h1>8</h1>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/trending-09.jpg" />
+              <h1>9</h1>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/trending-10.jpg" />
+              <h1>10</h1>
+            </div>
+          </div>
+          <div class="icon right">
+            <i class="fa-solid fa-angle-right right" style="color:white"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="Reasons">
+    <h1>More Reasons to Join</h1>
+    </div>
+    <div class="features">
+      <div  class="row">
+        <div class="text-col">
+        <h2>Enjoy on your TV</h2>
+        <p>Watch on Smart TVs, Playstation, Xbox, 
+          Chromecast, Apple TV, Blu-ray players, and more.</p>
+      </div>
+      <div class="img-col">
+       <img src="assets/images/feature-1.png">
+      </div>
+    </div>
+    <div  class="row">
+      <div class="text-col">
+      <h2>Download your shows to watch offline</h2>
+      <p>Save your favorites easily and always
+         have something to watch. </p>
+    </div>
+    <div class="img-col">
+     <img src="assets/images/feature-2.png">
+    </div>
+  </div>
+  <div  class="row">
+    <div class="text-col">
+    <h2>Watch everywhere</h2>
+    <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+  </div>
+  <div class="img-col">
+   <img src="assets/images/feature-3.png">
+  </div>
+</div>
+<div  class="row">
+  <div class="text-col">
+  <h2>Create profiles for kids</h2>
+  <p>Send kids on adventures with their favorite characters in
+     a space made just for them — free with your membership.</p>
+</div>
+<div class="img-col">
+ <img src="assets/images/feature-4.png">
+</div>
+</div>
+    </div>
+    <div class="faq">
+      <h2>Frequently Asked Questions</h2>
+      <ul class="accordion">
+    <li>
+      <input type="radio" name="accordion" id="first">
+      <label for="first">What is Netflix?</label>
+      <div class="content">
+       <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.
+      </p>
+      </div>
+    </li>
+    <li>
+      <input type="radio" name="accordion" id="second">
+      <label for="second">How much does Netflix cost?</label>
+      <div class="content">
+       <p> Watch Netflix on your smartphone,table,Smart TV,laptop,or streaming device,all for one fixed monthly fee.PLans range from 
+        US$2.99 to US$9.99 a month.NOextra cost,no contracts.
+        </p>
+      </div>
+    </li>
+    <li>
+      <input type="radio" name="accordion" id="third">
+      <label for="third">Where can I watch?</label>
+      <div class="content">
+       <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+      </p>
+      </div>
+    </li>
+    <li>
+      <input type="radio" name="accordion" id="fouth">
+      <label for="fouth">How do I cancel?</label>
+      <div class="content">
+       <p>Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees-start or stop your account anytime.</p>
+      </div>
+    </li>
+    <li>
+      <input type="radio" name="accordion" id="fifth">
+      <label for="fifth">What can I watch on Netflix?</label>
+      <div class="content">
+       <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+      </div>
+    </li>
+    <li>
+      <input type="radio" name="accordion" id="sixth">
+      <label for="sixth">Is Netflix good for kids?</label>
+      <div class="content">
+       <p>
+        The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.
+        
+        Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don't want kids to see.</p>
+      </div>
+    </li>
+      </ul>
+      <small>Ready to watch? Enter your email to create or restart your membership.</small>
+      <form class="header-form">
+        <input type="email" placeholder="Email address" />
+        <button type="submit">Get Started</button>
+      </form>
+    </div>
+    <div class="footer">
+   <h2>Questions? call 000-000-000-000</h2>
+
+   <div class="row">
+    <div class="col">
+      <a href="#">FAQ</a>
+      <a href="#">Investor Relations</a>
+      <a href="#">Privacy</a>
+      <a href="#">Speed Test</a>
+    </div>
+        <div class="col">
+          <a href="#">Help Center</a>
+          <a href="#">Jobs</a>
+          <a href="#">Cookie Preferences</a>
+          <a href="#">Legal Notices</a>
+        </div>
+      <div class="col">
+        <a href="#">Account</a>
+        <a href="#">Ways to Watch</a>
+      <a href="#">Corporate Information</a>
+      <a href="#">Only on Netflix</a>
+      </div>
+      <div class="col">
+        <a href="#">Media Center</a>
+        <a href="#">Terms of Use</a>
+      <a href="#">Contact Us</a>
+    </div>
+   </div>
+   <div>
+   <button class="language-btn">English</button>
+   <p class="text">Netflix India</p>
+    </div>
+  <script src="script.js" defer ></script>
+  </body>
+</html>
+  
